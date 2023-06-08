@@ -1,0 +1,92 @@
+make CFLAGS=-DWMMA_1
+./cutlass-test>>log_dwmma1
+make clean
+make CFLAGS=-DWMMA_2
+./cutlass-test>>log_dwmma2
+make clean
+make CFLAGS=-DWMMA_3
+./cutlass-test>>log_dwmma3
+make clean
+make CFLAGS=-DWMMA_4
+./cutlass-test>>log_dwmma4
+make clean
+make CFLAGS=-DWMMA_5
+./cutlass-test>>log_dwmma5
+make clean
+make CFLAGS=-DWMMA_6
+./cutlass-test>>log_dwmma6
+make clean
+make CFLAGS=-DWMMA_7
+./cutlass-test>>log_dwmma7
+make clean
+make CFLAGS=-DWMMA_8
+./cutlass-test>>log_dwmma8
+make clean
+make CFLAGS=-DWMMA_9
+./cutlass-test>>log_dwmma9
+make clean
+make CFLAGS=-DWMMA_10
+./cutlass-test>>log_dwmma10
+make clean
+make CFLAGS=-DWMMA_11
+./cutlass-test>>log_dwmma11
+make clean
+make CFLAGS=-DWMMA_12
+./cutlass-test>>log_dwmma12
+make clean
+make CFLAGS=-DWMMA_13
+./cutlass-test>>log_dwmma13
+make clean
+make CFLAGS=-DWMMA_14
+./cutlass-test>>log_dwmma14
+make clean
+make CFLAGS=-DWMMA_15
+./cutlass-test>>log_dwmma15
+make clean
+make CFLAGS=-DWMMA_16
+./cutlass-test>>log_dwmma16
+make clean
+make CFLAGS=-DWMMA_17
+./cutlass-test>>log_dwmma17
+make clean
+make CFLAGS=-DWMMA_18
+./cutlass-test>>log_dwmma18
+make clean
+make CFLAGS=-DWMMA_19
+./cutlass-test>>log_dwmma19
+make clean
+make CFLAGS=-DWMMA_20
+./cutlass-test>>log_dwmma20
+make clean
+make CFLAGS=-DWMMA_21
+./cutlass-test>>log_dwmma21
+make clean
+make CFLAGS=-DWMMA_22
+./cutlass-test>>log_dwmma22
+make clean
+make CFLAGS=-DWMMA_23
+./cutlass-test>>log_dwmma23
+make clean
+make CFLAGS=-DWMMA_24
+./cutlass-test>>log_dwmma24
+
+make clean
+make CFLAGS=-DSGEMM_1
+./cutlass-test>>log_dsgemm1
+make clean
+make CFLAGS=-DSGEMM_2
+./cutlass-test>>log_dsgemm2
+make clean
+make CFLAGS=-DSGEMM_3
+./cutlass-test>>log_dsgemm3
+
+make clean
+make CFLAGS=-DDGEMM_1
+./cutlass-test>>log_ddgemm1
+make clean
+make CFLAGS=-DDGEMM_2
+./cutlass-test>>log_ddgemm2
+make clean
+make CFLAGS=-DDGEMM_3
+./cutlass-test>>log_ddgemm3
+make clean
